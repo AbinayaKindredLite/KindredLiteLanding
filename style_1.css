@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url("kindredlite_hero_bg.jpg") center center / cover no-repeat;
+  color: #333;
+  text-align: center;
+  padding: 0;
+}
+
+.overlay {
+  background: rgba(255, 247, 238, 0.85); /* Light warm overlay */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 16px;
+  color: #d2673b;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin: 24px 0 12px;
+  font-weight: 600;
+}
+
+h2.activity-highlight {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #d2673b; /* terracotta orange */
+  margin: 30px 0 10px;
+}
+
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-icon {
+  width: 80px;
+  height: auto;
+}
+
+.app-name {
+  font-size: 1em;
+  font-weight: 600;
+  color: #b7542d;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  letter-spacing: 0.3px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+
+.cta-button {
+  background-color: #d2673b;
+  color: #fff;
+  padding: 14px 28px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 16px;
+}
+
+.cta-button:hover {
+  background-color: #b7542d;
+}
+
+.privacy-note {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 12px;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: #777;
+  padding: 20px;
+}
