@@ -8,11 +8,12 @@ body {
 }
 
 .overlay {
-  background: rgba(255, 247, 238, 0.85); /* Light warm overlay */
+  background: rgba(255, 247, 238, 0.7); /* Light warm overlay */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  *backdrop-filter: blur(4px);
 }
 
 header {
